@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>FlashCards</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="../CodeCSS/app2.css">
+        <script src="../CodeJS/app2.js" defer></script>
+    </head>
+    <body>
+        <main>
+            <div class="titre">
+                <h1>FlashCards</h1>
+                <p>Apprends ● Révise ● Progresse</p>
+            </div>
+            <!--Progrès-->
+            <div class="progress">
+                <span id="numCarte">1</span>/<span id="totCarte">20</span>
+            </div>
+            <!--Cartes-->
+            <section class="carte">
+                <p id="question">Qu'est-ce que HTML ?</p>
+                <p id="reponse">HTML est un langage utilisé pour structurer le contenu d'une page web.</p>
+            </section>
+            <!--Bouton pour afficher la réponse-->
+            <button id="voirR">Voir la réponse</button>
+            <!--Navigation entre les cartes-->
+            <nav class="navig">
+                <button id="prev" aria-label="Carte précedente">⬅️<!--<img src="../CodeCSS/assets/icons/ChevronLeft.svg" alt="">--></button>
+                <!--<img src="CSS/assets/icons/home.svg" alt="Accueil">-->
+                <button id="next">➡️<!--<img src="../CodeCSS/assets/icons/ChevronRight.svg" alt="">--></button>
+            </nav>
+        </main>
+    </body>
+</html>
